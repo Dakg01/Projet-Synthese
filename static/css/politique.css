@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-item {
+    position: relative;
+    margin-right: 20px;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.menu-item a:hover {
+    background-color: #444;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.submenu li a {
+    background-color: #7d2020;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.submenu li a:hover {
+    background-color: #555;
+}
+
+.titre-centre {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.item {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h2{
+        color: #f3efef;
+    }
+}
+
+
+
+.our-programs {
+    background-image: url('../image/u4.webp');
+
+}
+
+.our-programs:hover {
+    border: 4px solid #3f0808;
+    h2{
+        color: #ada3a3;
+    }
+
+}
+
+
+.we-are-moving {
+    background-image: url('../image/u6.jpeg');
+}
+.we-are-moving:hover {
+    border: 4px solid #3f0808;
+    h2{
+        color: #ada3a3;
+    }
+
+}
+
+.force-academy {
+    background-image: url('../image/u8.jpg');
+}
+.force-academy:hover {
+    border: 4px solid #3f0808;
+    h2{
+        color: #ada3a3;
+    }
+
+}
+
+
+.recreational-programs {
+    background-image: url('../image/u10.jpg');
+}
+.recreational-programs:hover {
+    border: 4px solid #3f0808;
+    h2{
+        color: #ada3a3;
+    }
+
+}
+
+.club-information {
+    background-image: url('../image/u12.png');
+}
+
+.club-information:hover {
+    border: 4px solid #3f0808;
+    h2{
+        color: #ada3a3;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.rapport {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.rapport1 {
+    width: 30%;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.rapport1:hover {
+    transform: scale(1.10);
+}
+
+.rapport2 {
+    padding: 20px;
+    background-color: #7d2020;
+    text-align: center;
+}
+
+.rapport2 h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.partners {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+}
+
+.partners img {
+    max-width: 100px;
+    margin: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(238, 231, 231);
+    text-align: center;
+    padding: 2px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

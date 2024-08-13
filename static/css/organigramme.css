@@ -1,0 +1,88 @@
+/* Container for the entire chart */
+.chart-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #333;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #555;
+}
+
+/* Chart styles */
+.chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Branch and sub-branch styles for organizational structure */
+.branch, .sub-branch {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.branch::before, .sub-branch::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    border-top: 2px solid #7d2020;
+    width: 50%;
+    transform: translateX(-50%);
+}
+
+.branch::after, .sub-branch::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 2px solid #7d2020;
+    height: 20px;
+    transform: translateX(-50%);
+}
+
+/* Node styles */
+.node {
+    background-color: #f9f9f9;
+    border: 2px solid #7d2020;
+    border-radius:15px;
+    padding: 15px;
+    margin: 0 20px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.node img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.title {
+    font-weight: bold;
+    color: #7d2020;
+    margin-top: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .branch, .sub-branch {
+        flex-direction: column;
+    }
+
+    .node {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
