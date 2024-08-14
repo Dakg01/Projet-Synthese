@@ -1,0 +1,186 @@
+Introduction
+
+L’Association de Soccer de Gatineau  est un organisme 
+sans but lucratif qui a pour mission de créer 
+un environnement amusant, positif et d’apprentissage sécuritaire où les 
+athlètes, les entraîneurs et les parents peuvent se développer à travers le soccer.
+
+As Gatineau est déterminée à s’établir comme un club de référence dan région de l’Outaouais 
+en assurant un développement optimal de ses membres dans un cadre en constant d’évolution.
+
+objectif:
+Sachant que AS Gatineau possede EST CELLE QUI CONTIENT LE PLUS DE MEMBRE A NOS JOURS 
+DANS LA REGION DE L'OUTAOUAIS NOUS AVONS NON SEULEMENT LA RESPONSABILITÉ MAIS LE DEVOIR
+* D'Offrir le meilleur service possible et de façon équitable à tous nos membres, 
+autant pour le volet administratif que pour le volet technique.
+* Facilité l'accès à l'information
+* Renforcer le sentiment d’appartenance à l’AS GATINEAU 
+
+
+
+pour atteindre ses objectifs nous avons mis en des criteres d'evaluation 
+annuelle pour se rassurer que nos objectifs sont atteind :
+
+1-Avoir des entraîneurs qualifiés dans toutes les équipes A
+2-Fournir le plus grand nombre possible d’athlètes dans les équipes de sélection régionale.
+3-Maintenir nos équipes *AAA* dans la ligue de soccer Elite du Quebec (LSEQ).
+4-Avoir un retour de la communauté sur la saison ou un sujet quelconques.
+5-Faire en sorte que notre image soit reconnue dans la région. 
+
+c'est sur ses derniers volet que nous avons proposer d'ameliorer le site internet du club parce  
+nous avons recu retour de la communauté à ce sujet et cela permettra egalement d'assoire notre marque.
+
+Etat de l'art
+
+Avantages
+
+L’association de soccer de Gatineau (AS Gatineau est en pleine croissance, offrant une variété 
+de programme(Pour les personnes handicapées, pour les personnes âgées, pour enfants, etc..)
+1.	Accessibilité Locale : Le site www.soccerasg.ca est spécifiquement destiné aux membres et 
+aux supporters locaux, offrant des informations pertinentes sur les événements et les activités locales.
+
+2.	Communauté et Engagement : Ce site favorise un sentiment de communauté en permettant aux membres 
+de s'engager plus facilement dans les activités du club 
+
+3.	La navigation par catégories : Les catégories sont regroupées de manière logique,
+4.	Personnalisation et Réactivité : Le site peut être plus rapidement adapté 
+aux besoins spécifiques de la communauté locale.
+
+Inconvenients
+
+1.	Design et Esthétique : Comparé aux sites des clubs professionnels, www.soccerasg.ca est moins 
+moderne et moins attractif visuellement, ce qui peut affecter la première impression des visiteurs.
+
+2.	Surcharge d’information : Il y a trop d'informations sont présentées.
+
+3.	Ressources Techniques et de Maintenance : La maintenance et la mise à jour du site sont 
+moins régulières en raison de budgets et de ressources techniques limités
+4.  La gestion des, inscription, des éducateurs, joueurs et tuteurs 
+
+contributions
+Sachant que tous ses points ont un impact sur la navigation et l’expérience utilisateur,dans le cadre 
+de notre projet nous avons identifié plusieurs fonctionnalités où des améliorations qui peuvent être 
+apportées pour enrichir l'expérience des utilisateurs et facilité l'utilisation du siteweb.
+
+•	Intégration d'une Fonctionnalité de Chatbot 
+Le chatbot est alimenté par l'intelligence artificielle permettra de répondre automatiquement aux 
+questions fréquemment posées par les utilisateurs.
+
+•	Améliorer la navigation et l’expérience utilisateur
+
+Structure Hiérarchique : Utiliser une structure hiérarchique claire avec des catégories 
+principales et des sous-catégories logiquement organisées. 
+
+Menus Déroulants : Utiliser des menus déroulants pour éviter de surcharger la page d'accueil.
+
+Libellés Clairs : Utiliser des libellés de menu clairs et descriptifs pour que les utilisateurs 
+comprennent immédiatement ce qu'ils trouveront dans chaque section.
+
+ Mothodologie
+ 
+ 
+ Description fonctionnelle des fonctionnalités qu'un utilisateur pourrais faire.
+ 
+ 
+ 
+ Flask : Flask est un framework web léger et flexible pour Python qui permet aux développeurs de 
+ créer des applications web et facilité la connexion entre la base de donnéés et le frontend.
+ 
+ 
+ Develloppement
+ Visual Studio Code : est un éditeur de code source et un environnement de développement 
+ intégré (IDE) de Microsoft. 
+ GITHub : est une Plate formce collaborative en ligne qui nous a permis de stocker notre code.
+ GIT Bash : est une interface en ligne de commande qui permet d'utiliser Git sous Windows,
+ nous permettant d'envoyer notre code source sur GitHub.
+ Nous avons egalement utilisés du HTML coder nos pages web,du Le CSS pour designer nos pages, 
+ du JAVASCRIPT sur des page interactive, du Python connecter notre base de donnes au page web, 
+ du SQL Pour recreire la base de donnééss.
+ chatbase: C’est une plateforme de création et de gestion de chatbots développée par Google. 
+ 
+ Presentation des interface
+ 
+ •	Navigation sur le site 
+ Lorsque les utilisateurs arrivent sur notre site, ils sont accueillis par une page d'accueil 
+ attrayante qui présente les différentes sections et fonctionnalités disponibles.
+ 
+ comparaison:
+ 
+ 
+ •	Boutique en ligne
+
+C’est une plateforme numérique extérieure à l’association. C’est partenariat signé avec la 
+structure Marc-Sport (La source du sport) où les clubs et les fans et membre peuvent 
+acheter des équipements et des articles de sport. 
+
+•	Rapport annuel
+
+Sachant que l’association de soccer de Gatineau est une association à but non lucrative, 
+les rapports annuels sont publics et disponibles à toutes personnes qui souhaitent les consulter.
+
+•	Organigramme
+Représentation visuelle de la structure organisationnelle du club. 
+
+•	Programme secteur Base
+Le programme secteur Base concerne les jeunes joueurs débutants dans le soccer. Il se concentre 
+sur l’initiation au sport, en enseignant les compétences fondamentales, les règles du jeu, et 
+l’esprit d’équipe. Ce programme est conçu pour les enfants de 4 à 12 ans.
+
+•	Programme secteur Juvénile
+Le programme secteur Juvénile s’adresse aux jeunes joueurs âgés de 13 à 18 ans.
+Il vise à perfectionner leurs compétences techniques et tactiques, tout en renforçant leur 
+condition physique et leur compréhension du jeu.
+
+•	Programme senior
+Le programme senior est destiné aux joueurs adultes, généralement âgés de 18 ans et plus. 
+Il englobe à la fois les équipes amateurs et professionnelles, 
+avec des objectifs spécifiques pour chaque niveau. 
+
+•	Politiques et règlements
+Les politiques et règlements de notre association soccer sont des directives officielles qui 
+encadrent le fonctionnement du club, la conduite des membres, et le déroulement des activités. 
+
+
+•	Autres documents
+Les autres documents incluent divers types de documents administratifs, informatifs.
+
+ •	Contact Us
+
+C’est un formulaire dédié à fournir aux visiteurs un moyen d'entrer en contact avec notre association.
+les formulaire sera envoyera a l'administration qui ont un delai de 48h pour repondre. 
+
+
+Resultat et proposition
+
+Après une analyse minutieuse du site de notre association, il est clair que plusieurs
+Éléments ont été identifiés et méritent une attention particulière. Nous avons ajouté un espace client 
+pour faciliter l’accès à l’information et accroitre un impact positif sur l'expérience utilisateur.
+
+Les résultats de notre analyse ont révélé plusieurs points forts de notre site, notamment sa
+Convivialité générale, l’accès rapide à l’information, l'efficacité des fonctionnalités telles que
+le chatbot d'assistance, Ces éléments contribuent à améliorer l'expérience utilisateur et à 
+répondre à notre problématique initiale concernant la facilité d'accès et l'utilité de notre plateforme.
+
+
+Cependant, nous avons également identifié certaines limites qui méritent d'être mentionnées. 
+Parmi celles-ci nous pouvons citer des contraintes techniques, ainsi que des limitations budgétaires 
+qui pourraient limiter notre capacité à développer certaines fonctionnalités supplémentaires. 
+Ces limites soulignent l'importance de la prise en compte des contraintes opérationnelles dans 
+la conception et la gestion d'un tel projet.
+
+Ensuite, nous pourrions envisager d'ajouter de nouvelles fonctionnalités telles que des outils pour 
+afficher les éléments futurs, des matchs de la semaine 
+
+
+
+Conclusion:
+
+L'application web de l'AS Gatineau a pour objectif de révolutionner l'interaction des membres avec 
+l'association tout en facilitant la gestion interne des activités. Malgré quelques défis, tels que 
+la lenteur d'accès à certaines informations, nous avons réussi à atteindre nos objectifs 
+principaux. Nous avons conçu un espace en ligne qui se distingue par sa simplicité, sa convivialité, 
+et sa facilité d'utilisation. Cet espace est pensé pour être intuitif et accessible, permettant à 
+nos membres de naviguer aisément et d'accéder rapidement aux informations et services dont ils ont besoin. 
+Ainsi, l'application ne se contente pas de répondre aux attentes des utilisateurs, mais vise également à 
+améliorer continuellement l'expérience des membres, en tenant compte de leurs retours et besoin
+ 
